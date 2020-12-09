@@ -1,0 +1,27 @@
+{
+  "name": "TEST_APIs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "2.0.6"
+  },
+  "start": "node app.js",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "express-basic-auth": "1.2.0",
+    "mysql": "2.18.1",
+    "pg": "8.5.1",
+    "pg-hstore": "2.3.3",
+    "postgresql": "0.0.1",
+    "sequelize": "6.3.5"
+  }
+}
